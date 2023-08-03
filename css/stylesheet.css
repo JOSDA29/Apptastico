@@ -334,6 +334,10 @@ footer img{
         flex-direction: column;
     }
 
+    li{
+        width: 80px;
+    }
+
     h1{
         font-size: 35px;
         text-align: center;
@@ -409,8 +413,6 @@ footer img{
         justify-content: center;
     }
 
-    
-
     .pc{
         margin: 5px;
     }
@@ -443,5 +445,11 @@ footer img{
 
     footer {
         flex-direction: column;
+    }
+
+    footer div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
